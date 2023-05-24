@@ -2,27 +2,26 @@
 <html>
 <head>
 <style> 
-#example1 {
-  background-image: url(img_flwr.gif), url(paper.gif);
-  background-position: right bottom, left top;
-  background-repeat: no-repeat, repeat;
-  padding: 15px;
+div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: height 2s;
+}
+
+div:hover {
+  height: 300px;
 }
 </style>
 </head>
 <body>
 
-<h1>Multiple Backgrounds</h1>
-<p>The following div element has two background images:</p>
+<h1>The transition Property</h1>
 
-<div id="example1">
-  <h1>Lorem Ipsum Dolor</h1>
-  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-  <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-</div>
+<p>Hover over the div element below, to see the transition effect:</p>
+<div></div>
 
 </body>
 </html>
-
 
 
